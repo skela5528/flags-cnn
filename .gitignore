@@ -4,4 +4,7 @@ __pycache__/
 *$py.class
 
 .idea
+
+# data
 data/flags_*
+!data/flags_png_resized
