@@ -73,9 +73,9 @@ def normalise_png_images(in_img_dir, out_img_dir, target_h=100):
 
 
 if __name__ == '__main__':
-    # retrieve_to_dir(csv_path=CSV_PATH, out_dir=SVG_DIR)
+    retrieve_to_dir(csv_path=CSV_PATH, out_dir=SVG_DIR)
 
-    # convert_svg_to_png(SVG_DIR, PNG_DIR)
+    convert_svg_to_png(SVG_DIR, PNG_DIR)
 
     normalise_png_images(PNG_DIR, PNG_DIR_RESIZED)
 
